@@ -1,0 +1,14 @@
+{    
+    "parserOptions": {
+        "ecmaVersion": 2018
+    },
+    "rules": {
+        "arrow-parens": ["error", "as-needed"],
+        "indent": ["error", 4, { "SwitchCase": 1 }],
+        "linebreak-style": ["error", "windows"]
+    },
+    "env": {
+        "browser": true
+    },
+    "extends": "airbnb-base"
+}
